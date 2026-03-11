@@ -18,6 +18,12 @@ If it's new, append it.
 
 At the end, print how many total IPs you started with vs. 
 how many unique ones you found
+
+if this path not working then try 
+    import os 
+    script_dir = os.path.dirname(__file__) 
+    log_path = os.path.join(script_dir, "raw_ips.txt")
+    then  with open(log_path, 'r') as f:  remaining code
 '''
 all_ips=[]
 duplicate=0
