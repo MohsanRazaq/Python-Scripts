@@ -1,2 +1,5 @@
-Hello this is final report for our  cafeUpdated inventory:
-sprite Coke pepsi Juice
+Hello this is final report for our  cafe
+sprite: 55
+Coke: 10
+pepsi: 50
+Juice: 5

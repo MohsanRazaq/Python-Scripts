@@ -45,8 +45,9 @@ while True:
             print("Thanks For Having Time with Us " )
             with open("final_report",'w') as f:
                 f.write(f"Hello this is final report for our  cafe\n")
-                f.write(f"Updated inventory:\n{" ,".join(inventory)}")
-            break
+                for item, count in inventory.items():
+                    f.write(f"{item}: {count}\n")
+                break
         elif  choice=='menu'.lower():
             for item,counts in inventory.items():
                 print(item)
