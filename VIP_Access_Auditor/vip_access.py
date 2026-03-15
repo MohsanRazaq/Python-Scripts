@@ -13,15 +13,17 @@ vip_list=[]
 with open("access.txt",'r') as f:
     data=f.readlines()  #---> List 
 for name in data:
+    if not name.strip():
+        continue
     f_name=name.lower().strip().split(",")
+    
     name=f_name[0]
     status=f_name[1]
     if status=="success":
         if name in access_counts:
             access_counts[name]+=1
         else:
-                access_counts[name]=1
-                
+            access_counts[name]=1
 for name in access_counts:
     if access_counts[name]>2:
         vip_list.append(name)
@@ -31,5 +33,5 @@ print(f'           VIP Users : {", ".join(vip_list)}')
 print('---------------------------------------')
 print("Detailed Access Log:")
 for user, count in access_counts.items():
-    print(f"User: {user:11} | Logins: {count}") 
-            
+    print(f"User: {user:11} | Logins: {count}")
+    
