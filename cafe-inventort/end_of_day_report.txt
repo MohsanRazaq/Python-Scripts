@@ -1,0 +1,5 @@
+Here is End of the Day report
+Final Inventort: Latte Croissant Espresso Muffin
+Restock_alerts: 
+Croissant
+Muffin
