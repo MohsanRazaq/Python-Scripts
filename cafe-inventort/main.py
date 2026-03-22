@@ -35,7 +35,7 @@ restock_alerts=[]
 daily_sales = [("Latte", 3), ("Croissant", 5), ("Muffin", 1), ("Latte", 2)]
 for item,amount in daily_sales:
     if inventory[item]>=amount:
-        inventory[item]-=amount
+        inventory[item]-=amount  
     else:
         print(f"Warning---> Your Stock IS low  for {item}")
 
