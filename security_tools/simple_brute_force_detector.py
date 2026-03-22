@@ -11,7 +11,7 @@ for i in range(5):
     
     # Check if blocked
     if attempts[ip] > 3:
-        print("IP blocked:", ip)
+        print("IP blocked:", ip)  
         break
     else:
         print("Login failed attempt", attempts[ip])
