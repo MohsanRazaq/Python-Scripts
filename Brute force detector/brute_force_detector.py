@@ -6,7 +6,7 @@ Iterates through every line using a for loop.
 Splits each line at the comma , to separate the IP from the Status.
 Filters: Only look for lines where the status is "FAILED".
 Logic: Count how many times each IP failed. If an IP fails more than 3 times,
-print: [ALERT] Brute Force detected from IP: 10.0.0.5.
+print: [ALERT] Brute Force detected from IP: 10.0.0.5.   
 '''
 ''' 
 if this path not working then try 
