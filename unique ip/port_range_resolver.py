@@ -15,7 +15,7 @@ else:
     
     user=user_input.split("-")
     if len(user)==2:
-        try:
+        try: 
             start=int(user[0])
             end=int(user[1])
             if (start <0 or start> 65535)  or   (end <0 or end > 65535):
