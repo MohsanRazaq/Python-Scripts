@@ -19,7 +19,7 @@ try:
     for employee in fired_employees:
         if employee in system_users:
             print(f'{employee} is Fired  Now')
-            system_users.pop(employee)
+            system_users.pop(employee) 
 
     print(f"Remaining Users: {system_users}")
 except NameError:
