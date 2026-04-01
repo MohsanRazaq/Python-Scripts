@@ -17,7 +17,7 @@ if this path not working then try
     '''
     
 failed_attempts={}
-try:
+try: 
     with open("logs.txt", 'r') as f: 
         for line in f:
             data = line.strip().split(",")
