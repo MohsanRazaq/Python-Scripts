@@ -8,7 +8,7 @@ Constraints: No built IN FUNCTION
 Output : 
 ..even/odd
 ..prime
-..digit count
+..digit count 
 
 Concepts : input() if/else loops modulus
 
