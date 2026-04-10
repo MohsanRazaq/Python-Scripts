@@ -9,7 +9,7 @@ import time
 
 # ---------------- CONFIG ----------------
 URL = 'https://httpbin.org/get'   # Safe public endpoint
-NUM_THREADS = 100   # Change for i-,+ number of threads
+NUM_THREADS = 200   # Change for i-,+ number of threads
 
 # ---------------- GLOBAL COUNTERS ----------------
 success_count = 0
