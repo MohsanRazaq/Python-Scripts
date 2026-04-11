@@ -10,7 +10,7 @@ This project demonstrates a **Man-in-the-Middle (MITM) attack simulation** in Py
 It is designed to help students understand how attackers intercept data and how encryption prevents such attacks.
 
 ---
-
+ 
 ## ⚠️ Ethical Disclaimer
 
 This project is strictly for **educational and lab use only**.
