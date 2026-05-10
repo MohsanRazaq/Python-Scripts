@@ -1,2 +1,3 @@
 Check performed. IP: 192.168.100.51 
 Check performed. IP: 192.168.100.51 
+Check performed. IP: b'192.168.100.51 \n'Check performed. IP: 192.168.100.51 
