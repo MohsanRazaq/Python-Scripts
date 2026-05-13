@@ -5,7 +5,6 @@ You also have a list of "Fired Employees"
 who need to be removed from the system immediately.
 
 The Task:
-
 Loop through the fired_employees list.
 
 Check if that employee exists in your system_users dictionary.
